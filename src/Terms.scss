@@ -1,0 +1,26 @@
+.terms p {
+  position: absolute;
+  bottom: 115px;
+  left: 61px;
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  color: #6a707b;
+}
+
+.form p span {
+  color: black;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 920px) {
+  .terms p {
+    width: 359px;
+    height: 28px;
+    left: 61px;
+    bottom: 165px;
+  }
+}

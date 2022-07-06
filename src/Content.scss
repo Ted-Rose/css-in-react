@@ -1,0 +1,97 @@
+.row.content {
+  flex: auto;
+  width: 100%;
+  background-image: url("/Images/image_summer-mobile.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex: auto;
+  position: absolute;
+  box-sizing: border-box;
+  width: 335px;
+  min-height: 371px;
+  padding: 20px;
+  margin: 20px;
+  background: linear-gradient(180deg, #ffffff 0%, #f2f5fa 100%);
+}
+
+.form h1 {
+  font-family: "Georgia";
+  font-style: normal;
+  position: absolute;
+  top: 35px;
+  height: 34px;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  color: #131821;
+}
+
+.form h2 {
+  font-family: "Arial";
+  font-style: normal;
+  position: absolute;
+  top: 74px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  left: 20px;
+  right: 20px;
+  color: #6a707b;
+}
+
+.line {
+  height: 1px;
+  background: #e3e3e4;
+  width: 295px;
+  position: absolute;
+  align-self: center;
+  bottom: 96px;
+}
+
+@media only screen and (min-width: 920px) {
+  .row.content {
+    background-image: none;
+  }
+
+  .form {
+    position: absolute;
+    flex: auto;
+    background: none;
+    margin-top: 190px;
+    left: 100px;
+    width: 663px;
+    height: 463px;
+  }
+
+  .form h1 {
+    width: 399px;
+    height: 44px;
+    left: 20px;
+    top: -20px;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .form h2 {
+    width: 400px;
+    height: 56px;
+    left: 20px;
+    top: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .line {
+    width: 400px;
+    left: 20px;
+    bottom: 116px;
+  }
+}

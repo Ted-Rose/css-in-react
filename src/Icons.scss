@@ -1,0 +1,30 @@
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 214px;
+  align-self: center;
+  position: absolute;
+  left: 15.82%;
+  bottom: 30px;
+}
+
+.base {
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  border: 2px solid #e3e3e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 920px) {
+  .icons {
+    width: 244px;
+    height: 46px;
+    left: 98px;
+    bottom: 20px;
+  }
+}
